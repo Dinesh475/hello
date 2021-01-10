@@ -1,1 +1,53 @@
-ECHO is on.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prograd-premier-league-super-over</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img class="profile-icon" src="assets/india-flag-png.png" alt="Logo" height="150px" width="150px">
+                <span class="name" id="team-1-name"></span>
+                <div class="row round-runs" id="team-1-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team-1-score">-</span>
+                    <span>-</span>
+                    <span id="team-2-score">-</span>
+                </div>
+            </div>
+            <div class="col">
+                
+                <img class="profile-icon" src="assets/australia-flag-png.png" alt="Logo" height="150px" width="150px">
+                <span class="name" id="team-2-name"></span>
+                <div class="row round-runs" id="team-2-round-runs">
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                    <span class="col">-</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button id="striker-button" onclick="ButtonClick()"></button>
+        </div>
+        <!-- Result -->
+        <div class="row" id="result" hidden></div>
+    </div>
+</body>
+</html>
